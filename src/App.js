@@ -28,7 +28,7 @@ function App() {
       });
   }
   return (
-  <div style={{textAlign: "left", marginLeft: "25px", marginTop: "25px"}}>
+  <div style={{textAlign: "center", marginTop: "50px"}}>
       
       <h1>Login</h1>
       
