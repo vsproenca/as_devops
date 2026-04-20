@@ -13,8 +13,8 @@ function App() {
     
   function validarLogin() {
       if (
-      dados.email === "eduardo.lino@pucpr.br" &&
-      dados.senha === "123456"
+      dados.email === "valdinei.santos@pucpr.br" &&
+      dados.senha === "12345678"
       ){
           setMensagem("Acessado com sucesso!");
       } else {
@@ -28,7 +28,7 @@ function App() {
       });
   }
   return (
-  <div style={{textAlign: "left", marginLeft: "25px", marginTop: "25px"}}>
+  <div style={{textAlign: "center", marginTop: "50px"}}>
       
       <h1>Login</h1>
       
@@ -36,7 +36,7 @@ function App() {
       <input
       type="email"
       name="email"
-      placeholder="Digite seu email"
+      placeholder="Digite seu email: "
       onChange={handleChange}
       />
       </div>
@@ -45,7 +45,7 @@ function App() {
       <input
       type="password"
       name="senha"
-      placeholder="Digite sua senha"
+      placeholder="Digite sua senha: "
       onChange={handleChange}
       />
       </div>
