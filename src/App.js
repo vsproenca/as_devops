@@ -36,7 +36,7 @@ function App() {
       <input
       type="email"
       name="email"
-      placeholder="Digite seu email: "
+      placeholder="Digite seu e-mail:"
       onChange={handleChange}
       />
       </div>
@@ -45,7 +45,7 @@ function App() {
       <input
       type="password"
       name="senha"
-      placeholder="Digite sua senha: "
+      placeholder="Digite sua senha:"
       onChange={handleChange}
       />
       </div>

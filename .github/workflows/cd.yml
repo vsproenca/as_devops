@@ -1,0 +1,36 @@
+name: CD React Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: baixar codigo
+        uses: actions/checkout@v3
+
+      - name: instalar node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: instalar dependencias
+        run: npm install
+
+      - name: build projeto
+        run: npm run build
+
+      - name: deploy github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
