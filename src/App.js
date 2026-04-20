@@ -45,7 +45,7 @@ function App() {
       <input
       type="password"
       name="senha"
-      placeholder="Digite sua senha"
+      placeholder="Digite sua senha: "
       onChange={handleChange}
       />
       </div>
