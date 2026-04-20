@@ -36,7 +36,7 @@ function App() {
       <input
       type="email"
       name="email"
-      placeholder="Digite seu email:"
+      placeholder="Digite seu email: "
       onChange={handleChange}
       />
       </div>
