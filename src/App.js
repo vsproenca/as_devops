@@ -13,7 +13,7 @@ function App() {
     
   function validarLogin() {
       if (
-      dados.email === "eduardo.lino@pucpr.br" &&
+      dados.email === "valdinei.santos@pucpr.br" &&
       dados.senha === "123456"
       ){
           setMensagem("Acessado com sucesso!");
