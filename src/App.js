@@ -14,7 +14,7 @@ function App() {
   function validarLogin() {
       if (
       dados.email === "valdinei.santos@pucpr.br" &&
-      dados.senha === "123456"
+      dados.senha === "12345678"
       ){
           setMensagem("Acessado com sucesso!");
       } else {
@@ -36,7 +36,7 @@ function App() {
       <input
       type="email"
       name="email"
-      placeholder="Digite seu email"
+      placeholder="Digite seu email:"
       onChange={handleChange}
       />
       </div>
