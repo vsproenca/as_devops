@@ -14,7 +14,7 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
           -d '{
-                "content": "🚀 Novo evento no repositório!",
+                "content": "🚀 Deploy realizado com sucesso!",
                 "embeds": [{
                   "title": "GitHub Actions",
                   "description": "Commit ou PR executado com sucesso!",
